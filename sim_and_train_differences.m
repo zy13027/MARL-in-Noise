@@ -1,0 +1,2 @@
+help sim
+help train
