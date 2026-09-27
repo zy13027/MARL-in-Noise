@@ -1,0 +1,19 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
+# Simulink cache and code generation output (setupProject sends them to work/)
+work/
+*.slxc
+slprj/
+sccprj/
+codegen/
+
+# Compiled MEX files
+*.mex*
+
+# Training checkpoints written by train()
+savedAgents/

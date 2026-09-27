@@ -1,0 +1,13 @@
+# MATLAB and Simulink files that git must never merge or convert as text
+*.mat binary
+*.mlx binary
+*.mlapp binary
+*.slx binary
+*.slxc binary
+*.mdl binary
+*.sldd binary
+*.fig binary
+*.p binary
+
+# Show the enclosing function in diff hunk headers
+*.m diff=matlab
